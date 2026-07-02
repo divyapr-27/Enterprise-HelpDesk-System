@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f3f4f6;
+    color:#2d3748;
+}
+
+
+
+.navbar{
+    background:#2d3748 !important;
+    padding:15px 40px;
+    box-shadow:0 5px 20px rgba(0,0,0,.12);
+}
+
+.navbar-brand{
+    color:white !important;
+    font-size:26px;
+    font-weight:700;
+    letter-spacing:.5px;
+}
+
+.nav-link{
+    color:#e2e8f0 !important;
+    margin-right:18px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#ffffff !important;
+    transform:translateY(-2px);
+}
+
+
+
+.dashboard-title{
+    text-align:center;
+    font-size:34px;
+    font-weight:700;
+    color:#2d3748;
+    margin-bottom:40px;
+}
+
+
+
+.card{
+    border:none;
+    border-radius:18px;
+    background:white;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+.card-body{
+    padding:30px;
+}
+
+.card-body h5{
+    color:#0a2e77;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.card-body h1{
+    font-size:42px;
+    font-weight:700;
+    color:#2d3748;
+}
+
+
+
+.login-card{
+    width:450px;
+    margin:auto;
+    margin-top:80px;
+    padding:40px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+
+.form-control,
+.form-select{
+    border-radius:12px;
+    padding:14px;
+    border:1px solid #d1d5db;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border:2px solid #4b5563;
+    box-shadow:none;
+}
+
+
+
+.btn-primary{
+    background:#374151;
+    border:none;
+    border-radius:10px;
+}
+
+.btn-primary:hover{
+    background:#1f2937;
+}
+
+.btn-success{
+    background:#4b5563;
+    border:none;
+    border-radius:10px;
+}
+
+.btn-success:hover{
+    background:#374151;
+}
+
+.btn-danger{
+    background:#6b7280;
+    border:none;
+    border-radius:10px;
+}
+
+.btn-danger:hover{
+    background:#4b5563;
+}
+
+
+
+.table{
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+.table thead{
+    background:#2d3748;
+}
+
+.table th{
+    color:white;
+    padding:16px;
+}
+
+.table td{
+    padding:15px;
+}
+
+.table-hover tbody tr:hover{
+    background:#f1f5f9;
+}
+
+
+
+.profile-card{
+    max-width:600px;
+    margin:auto;
+}
+
+
+
+.ticket-card{
+    border-left:5px solid #4b5563;
+}
+
+
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+
+
+.container{
+    margin-top:40px;
+}
+
+
+footer{
+    margin-top:40px;
+    text-align:center;
+    color:#6b7280;
+    font-size:14px;
+}
+
+
+
+@media(max-width:768px){
+
+.navbar{
+    padding:15px;
+}
+
+.login-card{
+    width:95%;
+}
+
+.dashboard-title{
+    font-size:28px;
+}
+
+.card{
+    margin-bottom:20px;
+}
+
+}
