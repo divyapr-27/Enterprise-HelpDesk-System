@@ -1,16 +1,129 @@
-# React + Vite
+# Enterprise HelpDesk System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+Enterprise HelpDesk System is a full-stack web application developed to manage employee support tickets. Users can register, log in securely, create support tickets, view existing tickets, and monitor ticket statistics through a dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was developed using React for the frontend and Node.js with Express and Prisma ORM for the backend.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- User Registration
+- User Login
+- JWT Authentication
+- Protected Routes
+- Dashboard
+- Create Ticket
+- View Tickets
+- Delete Ticket
+- User Profile
+- PostgreSQL Database
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technology Used
+
+### Frontend
+- React.js
+- React Router
+- Axios
+- Bootstrap
+
+### Backend
+- Node.js
+- Express.js
+- Prisma ORM
+
+### Database
+- PostgreSQL
+
+### Authentication
+- JWT
+- Bcrypt
+
+---
+
+## Project Structure
+
+```
+Enterprise-HelpDesk-System
+│
+├── backend
+├── frontend
+├── database
+├── docs
+├── screenshot
+└── README.md
+```
+
+---
+
+## Screenshots
+
+### Login
+
+![Login](screenshot/login.png)
+
+### Register
+
+![Register](screenshot/register.png)
+
+### Dashboard
+
+![Dashboard](screenshot/dashboard.png)
+
+### Tickets
+
+![Tickets](screenshot/ticket.png)
+
+### Create Ticket
+
+![Create Ticket](screenshot/createticket.png)
+
+### Profile
+
+![Profile](screenshot/profile.png)
+
+---
+
+## How to Run
+
+### Backend
+
+```bash
+cd backend
+npm install
+npx prisma generate
+npx prisma db push
+npm run dev
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## Future Improvements
+
+- Update Ticket
+- Search Tickets
+- Filter Tickets
+- Admin Module
+- Email Notifications
+
+---
+
+## Developed By
+
+**Divya PR**
+
+B.Tech Information Technology
+
+Christ University
